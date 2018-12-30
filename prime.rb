@@ -7,4 +7,3 @@ def prime?(n)
     return TRUE
   end
 end
-end
