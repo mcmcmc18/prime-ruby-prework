@@ -1,7 +1,13 @@
 # Add  code here!
 
 def prime?(n)
+  range = (2..(n-1)).to_a 
+  range 
+
   
+  
+   test_divisors = (2..(integer - 1)).to_a	   test_divisors = (2..(integer - 1)).to_a
+   if test_divisors.any? {|divisor| integer % divisor == 0} || integer == 0 || integer == 1 	   (test_divisors.any? {|divisor| integer % divisor == 0} || integer == 0 || integer == 1) ? false : true  
 if 
  range_of_nums = (2...n).to_a
   range_of_nums.each do |x|
