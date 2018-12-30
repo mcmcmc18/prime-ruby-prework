@@ -8,6 +8,7 @@ range_of_nums = (2...n).to_a
   range_of_nums.each do |x|
     if n % x == 0 
       return FALSE
+end
 else
   return TRUE
 end
