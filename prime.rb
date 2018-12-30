@@ -5,8 +5,7 @@ if
 (range_of_nums = (2...n).to_a
   range_of_nums.each do |x|
     if n % x == 0 ) || (n < 2)
-      return FALSE
-elsi
+      return FALSEi
 else
   return TRUE
 end
