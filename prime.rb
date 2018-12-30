@@ -1,7 +1,7 @@
 # Add  code here!
 
 def prime?(n)
-  if (n % 2 == 0 && n / 2 > 1)  || (n % 3 == 0 && n / 3 > 1) || (n < 1)
+  if ((n % 2 == 0 && n / 2 > 1)  || (n % 3 == 0 && n / 3 > 1)) && (n < 1)
     return FALSE
   else 
     return TRUE
