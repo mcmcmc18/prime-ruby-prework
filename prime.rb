@@ -2,7 +2,8 @@
 
 def prime?(n)
   range = (2..(n-1)).to_a 
-  range 
+  (range.any?{|x|
+  n % x == 0 || n == 0 || n == 1
 
   
   
