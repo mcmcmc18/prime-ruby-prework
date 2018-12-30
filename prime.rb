@@ -1,13 +1,10 @@
 # Add  code here!
-def prime?(n)
-if ( n % n == 0 || n % 2 == 0 ) && (n > 0)
-  unless n  == 2
-  return TRUE
-else
-  return FALSE
-end
-end
-end
 
 def prime?(n)
-  if (n % 2 == 0 && n / 2 > 1) 
+  if (n % 2 == 0 && n / 2 > 1)  || (n % 3 == 0 && n / 3 > 1) || (n < 1)
+    return FALSE
+  else 
+    return TRUE
+  end
+end
+end
