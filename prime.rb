@@ -2,9 +2,9 @@
 
 def prime?(n)
   if (n % 2 == 0 && n / 2 == 0) || (n % 3 == 0 && n / 3 == 0)
-    UNLESS n < 0
     return FALSE
   else 
+    unless n < 1
     return TRUE
   end
 end
