@@ -4,7 +4,7 @@ def prime?(n)
 if n < 2 
   return FALSE
 elsif
-range_of_nums = (2...n-1).to_a
+range_of_nums = (2...(n-1)).to_a
   range_of_nums.each do |x|
     if n % x == 0 
       return FALSE
